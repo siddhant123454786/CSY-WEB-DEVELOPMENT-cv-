@@ -1,0 +1,140 @@
+body {
+	margin: 0 auto;
+	display: inline;
+}
+
+#main {
+
+}
+
+.box {
+	text-align: center;
+	top: 5em;
+    
+}
+
+.list-item {
+	background-image: url("cd.jpg");
+    opacity: 0.8;
+    height: 5em;
+    line-height: 4;
+}
+
+
+.list-item-menu {
+	display: inline-block;
+    margin-left: 20%;
+
+}
+.list-item ul  li {
+	display: inline-block;
+    height: 5em;
+}
+.list-item ul li a {
+	color: white;
+    padding-right: 90px;
+    text-decoration: none;
+    font-size: 21px;
+}
+.font {
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 25%;
+	margin: 0 auto;
+}
+.footer {
+	text-align: center;
+	font-size: 25px;
+	background-color: black;
+    background-image: url("cd.jpg");
+    opacity: 0.8;
+    color: deepskyblue;
+
+}
+.footer h5 {
+	margin: 0 auto;
+	line-height: 4;
+}
+.asdf ul {
+	display: inline-block;
+    width: 25%;
+}
+
+.abt {
+	 font-size: 25px;
+    display: inline-block;
+    width: 20%;
+    font-family: fantasy;
+    margin-left: 12em;
+}
+.perosnal-image {
+	    display: inline-block;
+    width: 550px;
+    height: 550px;
+    margin-left: 8em;
+
+
+}
+table {
+	background: url(images/cv.jpeg);
+	color: ghostwhite;
+	
+	margin: 5% 0% 0% 18%;
+	box-shadow: 5px 10px deepskyblue;
+}
+.contact-form {
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+}
+.contact-main {
+	margin-top: 9em;
+    margin-bottom: 10em;
+}
+
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.icon {
+    padding: 10px;
+    background: grey;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+.input-field:focus {
+    border: 2px solid deepskyblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-color: silver;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+.ll img{
+	width:250px;
+	height: 250px; 
+}
+.hh img{
+	width:75% ;
+	height: 50%;
+}
